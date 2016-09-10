@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-09-10T06:59:40.554Z</updated>
+  <updated>2016-09-10T07:03:59.139Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2016/09/10/mylife/"/>
     <id>http://yoursite.com/2016/09/10/mylife/</id>
     <published>2016-09-10T06:44:30.923Z</published>
-    <updated>2016-09-10T06:59:40.554Z</updated>
+    <updated>2016-09-10T07:03:59.139Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>我有一头<strong>小毛驴</strong>，可是我从来都不骑。</p>
@@ -36,6 +36,10 @@
     
     </summary>
     
+      <category term="随笔" scheme="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="生活" scheme="http://yoursite.com/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
