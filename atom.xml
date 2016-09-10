@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>逍遥谷</title>
-  <subtitle>乐在其中，逍遥自在。</subtitle>
+  <subtitle>乐在其中，逍遥自在</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
