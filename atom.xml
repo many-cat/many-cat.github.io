@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-09-05T09:41:49.898Z</updated>
+  <updated>2016-09-10T06:59:40.554Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>生活感悟</title>
+    <link href="http://yoursite.com/2016/09/10/mylife/"/>
+    <id>http://yoursite.com/2016/09/10/mylife/</id>
+    <published>2016-09-10T06:44:30.923Z</published>
+    <updated>2016-09-10T06:59:40.554Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p>我有一头<strong>小毛驴</strong>，可是我从来都不骑。</p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;我有一头&lt;strong&gt;小毛驴&lt;/strong&gt;，可是我从来都不骑。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
