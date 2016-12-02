@@ -88,7 +88,7 @@
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="逍遥谷">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:url" content="http://yoursite.com/categories/JAVA常用算法求解/index.html">
 <meta property="og:site_name" content="逍遥谷">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="逍遥谷">
@@ -109,7 +109,7 @@
   };
 </script>
 
-  <title> 逍遥谷  -  </title>
+  <title> 分类: JAVA常用算法求解 | 逍遥谷  -  </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -130,9 +130,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left 
-   page-home 
- ">
+  <div class="container one-collumn sidebar-position-left  ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -239,315 +237,40 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
-    
-      
 
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/09/17/javaforalgorithm/" itemprop="url">
-                  约瑟夫环求解-JAVA
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-09-17T16:29:33+08:00" content="2016-09-17">
-              2016-09-17
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/JAVA常用算法求解/" itemprop="url" rel="index">
-                    <span itemprop="name">JAVA常用算法求解</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/09/17/javaforalgorithm/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/09/17/javaforalgorithm/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-		  
-			
-			
-          
-
-          
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>在罗马人占领乔塔帕特后，39 个犹太人与Josephus及他的朋友躲到一个洞中，39个犹太人决定宁愿死也不要被敌人抓到，于是决定了一个自杀方式，41个人排成一个圈，由第1个人开始报数，每报数到第3人该人就必须自杀，然后再由下一个重新报数，直到所有人都自杀身亡为止。然而Josephus 和他的朋友并不想遵从，Josephus要他的朋友先假装遵从，他将朋友与自己安排在第16个与第31个位置，于是逃过了这场死亡游戏。</p>
-<h3 id="算法一"><a href="#算法一" class="headerlink" title="算法一"></a>算法一</h3><pre><code>public class Josephus{  
-    public static int[] arrayOfJosephus(int number, int per) {  
-    int[] man = new int[number];   
-      //doWhile循环三次循环确定一个人，for循环一次循环确定一个人
-    for(int count = 1, i = 0, pos = -1;  count &lt;= number; count++) {   
-        do {   
-            pos = (pos+1) % number;  // 环状处理   
-            if(man[pos] == 0)   
-                i++;   
-
-            if(i == per) {  // 报数为3了   
-                i = 0;   
-                break;   
-            }   
-        } while(true);   
-
-        man[pos] = count;   //man[pos] 记录了自杀的顺序，未自杀者初始值为0
-    }   
-
-    return man;  
-}  
-
-    public static void main(String[] args) {  
-         int[] man = Josephus.arrayOfJosephus(41, 3);  
-        int alive = 38;  
-
-        System.out.println(&quot;约琴夫排列：&quot;);   
-        for(int i = 0; i &lt; 41; i++)   
-            System.out.print(man[i] + &quot; &quot;);   
-
-
-        System.out.println(&quot;\nL表示3个存活的人要放的位置：&quot;);   
-        for(int i = 0; i &lt; 41; i++) {   
-            if(man[i] &gt; alive)   
-                System.out.print(&quot;L&quot;);   
-            else   
-                System.out.print(&quot;D&quot;);   
-               if((i+1) % 5 == 0)   
-                System.out.print(&quot;  &quot;);   
-        }   
-        System.out.println();  
-    }  
-}  
-</code></pre>
-          
-        
-      
+  <section id="posts" class="posts-collapse">
+    <div class="collection-title">
+      <h2 >
+        JAVA常用算法求解
+        <small>分类</small>
+      </h2>
     </div>
 
-	<div>
-      
-    </div>
-	
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
     
       
 
-  
-  
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
 
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
+      <h1 class="post-title">
         
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
+            <a class="post-title-link" href="/2016/09/17/javaforalgorithm/" itemprop="url">
               
-                
-                <a class="post-title-link" href="/2016/09/10/mylife/" itemprop="url">
-                  心路历程
-                </a>
+                <span itemprop="name">约瑟夫环求解-JAVA</span>
               
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-09-10T14:44:30+08:00" content="2016-09-10">
-              2016-09-10
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/大学生活/" itemprop="url" rel="index">
-                    <span itemprop="name">大学生活</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/09/10/mylife/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/09/10/mylife/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-		  
-			
-			
-          
-
-          
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <h2 id="Android探索之路"><a href="#Android探索之路" class="headerlink" title="Android探索之路"></a>Android探索之路</h2><ul>
-<li>自我介绍：本人目前大三，来大学之前，从未接触过编程，高考来了两次，最终走进了本三院校计算机专业。</li>
-</ul>
-<h3 id="探索之路："><a href="#探索之路：" class="headerlink" title="探索之路："></a>探索之路：</h3><ul>
-<li>Java基础：从接触毕向东的教学视频和百度云盘开始。当时的我完全听不懂这些东西，就开始搜索其他资源，搜索到了马士兵的视频，接触到了两个学习平台：慕课网和极客学院。就这样迷茫着，边搜边学着，半年过去了，java学习完了面向对象。<ul>
-<li>总结：<ul>
-<li>接受一个陌生事物需要有一个磨合的过程。脑袋疼一段时间，接受了这些东西，学习起来就不是那么费劲了。</li>
-<li>这半年时间大多被自己迷茫等负面情绪占据，真正学习时间占少数。</li>
-<li>缺少人指导，不能够大胆的明确的走下去。</li>
-<li>心智还不成熟，不明白学习是为了自己学习。</li>
-</ul>
-</li>
-<li>慕课网：<a href="http://www.imooc.com/">http://www.imooc.com/</a>  </li>
-<li>极客学院： <a href="http://www.jikexueyuan.com/">http://www.jikexueyuan.com/</a></li>
-<li>小白可以跟着上面的路径学习某个职业，我学习的时候还没有路径这个选项（容我哭一会）
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/09/10/mylife/#more" rel="contents">
-              阅读全文 &raquo;
             </a>
-          </div>
         
-      
-    </div>
+      </h1>
 
-	<div>
-      
-    </div>
-	
-    <div>
-      
-    </div>
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2016-09-17T16:29:33+08:00"
+              content="2016-09-17" >
+          09-17
+        </time>
+      </div>
 
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
+    </header>
   </article>
 
 
@@ -555,6 +278,7 @@
   </section>
 
   
+
 
 
           </div>
