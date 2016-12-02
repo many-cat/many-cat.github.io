@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-12-02T04:01:21.516Z</updated>
+  <updated>2016-12-02T04:13:20.818Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2016/09/10/mylife/"/>
     <id>http://yoursite.com/2016/09/10/mylife/</id>
     <published>2016-09-10T06:44:30.923Z</published>
-    <updated>2016-12-02T04:01:21.516Z</updated>
+    <updated>2016-12-02T04:13:20.818Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Android探索之路"><a href="#Android探索之路" class="headerlink" title="Android探索之路"></a>Android探索之路</h2><ul>
 <li>自我介绍：本人目前大三，来大学之前，从未接触过编程，高考来了两次，最终走进了本三院校计算机专业。</li>
@@ -93,12 +93,14 @@
 <li>补充：组织的纪律严格，主席团内部也有些混乱，弄的人很不舒服，也学不下去，各种各样的事很多，我自己经历了这些痛苦，我不想我手下的人也这样，所以在我手下的人相对还是舒适的，适合学习。</li>
 </ul>
 </li>
-<li>大一寒假 我为了让他们体会我自学的艰难，我给他们安排的任务是看慕课网的安卓工程师路线视频，自学安卓，这个相对简单，让他们接触接触安卓，磨合磨合，接受安卓，知道安卓是什么东西。开学时他们基本完成了我的要求。 放假前我给他们所有人装好了安卓环境，并郑重说了多次：寒假遇到了任何困难都可以随时找我，千万别不学。做好准备，我才撒手的。<pre><code>- 传智播客Java基础视频：http://dvd.boxuegu.com/course/7.html
-- 传智播客Android基础视频：http://dvd.boxuegu.com/course/135.html
-- 慕课网Android: http://www.imooc.com/course/programdetail/pid/33
-</code></pre></li>
+<li>大一寒假 我为了让他们体会我自学的艰难，我给他们安排的任务是看慕课网的安卓工程师路线视频，自学安卓，这个相对简单，让他们接触接触安卓，磨合磨合，接受安卓，知道安卓是什么东西。开学时他们基本完成了我的要求。 放假前我给他们所有人装好了安卓环境，并郑重说了多次：寒假遇到了任何困难都可以随时找我，千万别不学。做好准备，我才撒手的。<ul>
+<li>传智播客Java基础视频：<a href="http://dvd.boxuegu.com/course/7.html" target="_blank" rel="external">http://dvd.boxuegu.com/course/7.html</a></li>
+<li>传智播客Android基础视频：<a href="http://dvd.boxuegu.com/course/135.html" target="_blank" rel="external">http://dvd.boxuegu.com/course/135.html</a></li>
+<li>慕课网Android: <a href="http://www.imooc.com/course/programdetail/pid/33" target="_blank" rel="external">http://www.imooc.com/course/programdetail/pid/33</a></li>
+</ul>
+</li>
 <li>大一下学期，在我的带领下安卓组独立了，我给他们的是传智播客那时刚刚公开的安卓基础教程，这个能让他们打好安卓基础。这些东西我都没赶上，都给了他们了。这学期的教学是让他们看着教程配合着第一行代码，两者结合互相帮助，度过这半年。<ul>
-<li>补充： 这期间，我也给他们分享了我发现的一些东西。我在网上看到了GOOGLE STUDY JAMS活动的举办，我带领着组员参加了这个活动，我申请当了组长，组员有我的小弟和其他五湖四海的朋友。我圆满完成了任务。带领我的小弟和其他组员圆满结业，我也被评为优秀小组长（109选9组）。体会到了团队的凝聚力，共同努力的幸福。<br> <img src="/images/google.jpg" alt=""><ul>
+<li>补充： 这期间，我也给他们分享了我发现的一些东西。我在网上看到了GOOGLE STUDY JAMS活动的举办，我带领着组员参加了这个活动，我申请当了组长，组员有我的小弟和其他五湖四海的朋友。我圆满完成了任务。带领我的小弟和其他组员圆满结业，我也被评为优秀小组长（全国109选9组）。体会到了团队的凝聚力，共同努力的幸福。<br> <img src="/images/google.jpg" alt=""><ul>
 <li>他们大一暑假时，我出去实习。他们的任务是黑马的手机安全卫士，结合着原先我的分享，他们已经不用我管了，剩下的路还要他们自己走。想想当初我大一暑假时安卓才会一点界面，他们已经把手机安全卫士学了，而且也建了博客，玩起了github。我很欣慰，我的努力没有白费。</li>
 <li>十分感谢老天让我能遇见你们，同时十分感谢你们的配合，没嫌我话多。（友情链接：陈帅 期待你的成长）</li>
 <li>有种自己从零开始,打下天下的成就感，同时衷心希望自己能有一帮志同道合的伙伴，一起对学校的安卓环境有一定影响。通过看张哥的博客，了解了张哥的努力，见识到了张哥现在的成就，我很受鼓舞和影响，看到大牛们的照片感觉很有感触，很有动力，奉上“亚洲最帅天团”照片：<img src="/images/daniu.jpg" alt=""></li>
@@ -114,7 +116,7 @@
 <li>浏览高质量技术文章，看看微信，看看开源项目。</li>
 <li>看书 小工到专家、android群英传、安卓开发艺术探索、android4.0高级编程、java编程思想。</li>
 <li>参与网易第一期Android微专业！</li>
-<li>参与stromzhang本人的半年亲手指导！<h3 id="android入门书籍推荐："><a href="#android入门书籍推荐：" class="headerlink" title="android入门书籍推荐："></a>android入门书籍推荐：</h3></li>
+<li>参与stormzhang本人的半年亲手指导！<h3 id="android入门书籍推荐："><a href="#android入门书籍推荐：" class="headerlink" title="android入门书籍推荐："></a>android入门书籍推荐：</h3></li>
 <li><p>第一行代码第二版、android编程权威指南第二版、疯狂android第三版</p>
 </li>
 <li><p>最后奉上帅张的签名：<img src="/images/book.png" alt=""></p>
